@@ -1,0 +1,83 @@
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: "Titillium Web", sans-serif;
+    background: url("whale.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.buffer {
+    height: 30px;
+}
+
+heading {
+    animation-delay: 1.7s;
+}
+
+
+
+h1 {
+    color: #FFD705;
+    font-size: 5em;
+    text-shadow: 0px 0px 1rem black;
+}
+
+hr {
+    width: 150px;
+    border-color: #FFD705;
+    border-width: 4px;
+    border-radius: 100px;
+}
+
+.smallBar {
+    animation-delay: 0.4s;
+}
+
+.middleBar {
+    animation-delay: 0.56s;
+}
+
+.bigBar {
+    animation-delay: 0.72s;
+}
+
+
+
+.btn-warning, .btn-warning:focus, .btn-warning:active {
+    font-weight: 800;
+    font-size: 24px;
+    background-color: #FFD705;
+    border-color: #FFD705;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    border-radius: 500px;
+    padding: 1rem 3rem;
+    box-shadow: none;
+    animation-delay: 0.9s;
+}
+
+
+/* bunch of !important because bootstrap is overwriting these somewhere/somehow */
+.btn-warning:active {
+    padding: 0.9rem 2.9rem;
+    color: white !important;
+    background-color: #FFD705 !important;
+    border-color: #FFD705 !important;
+    box-shadow: none !important; 
+    font-size: 22px !important;
+    box-shadow: 0px 0px 2rem #FFD705 !important; 
+}
+
+.btn-warning:hover {
+    background-color: #FFe352;
+    border-color: #FFe352;
+    color: white;
+    box-shadow: 0px 0px 2rem #FFD705;
+}
+
+
+
