@@ -1,6 +1,5 @@
 body, html {
     margin: auto 0;
-    
     font-family: "Titillium Web", sans-serif;
     background: url("whale.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
