@@ -1,5 +1,7 @@
 body, html {
     margin: auto 0;
+    position: fixed;
+    width:100%;
     font-family: "Titillium Web", sans-serif;
     background: url("whale.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -13,7 +15,7 @@ body, html {
     grid-gap: 40px;
     margin: 0% 5% 5% 5%;
     grid-template-columns: repeat(auto-fill, 450px);
-    justify-content: center;
+    justify-content: center; 
 }
 
 .heading{
@@ -72,7 +74,7 @@ img {
     
 }
 
-/* Responsive properties for when the screen becomes smaller than 600px */
+/* Responsive properties for when the screen becomes smaller than 550px */
 @media only screen and (max-width: 550px) {
     h1{
         font-size: 2.5rem;
@@ -84,7 +86,7 @@ img {
     }
 
     .wrapper{
-        margin: 0px;
+        margin: 0% 0% 5% 0%;
         grid-template-columns: repeat(auto-fill, 300px);
     }
 }
