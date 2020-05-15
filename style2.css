@@ -1,7 +1,5 @@
 body, html {
     margin: auto 0;
-    height: 100%;
-    width: 100%;
     font-family: "Titillium Web", sans-serif;
     background: url("whale.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -10,10 +8,12 @@ body, html {
   background-size: cover;
 }
 
-.container {
+.wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 496.35px);
-    grid-template-rows: 2, 1fr;
+    grid-gap: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: repeat(auto-fill, minmax(350px,450px));
     justify-content: center;
 }
 
@@ -67,22 +67,25 @@ h1{
 }
 
 img {
-    height: 350px;
-    width: 450px;
-    margin: 15px;
+    height: 100%;
+    width: 100%;
     border: 2px solid white;
 }
 
+.box {
+    height: 350px;
+    width: 100%; 
+}
+
 /* Responsive properties for when the screen becomes smaller than 600px */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
     h1{
         font-size: 2.5rem;
     }
 
-    img {
+    .box {
         height: 250px;
         width: 350px;
-        margin: 15px;
     }
 }
 
@@ -116,5 +119,5 @@ img {
 }
 
 .img-grow:hover {
-    transform: scale(1.07);
+    transform: scale(1.09);
 }
