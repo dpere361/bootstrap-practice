@@ -40,7 +40,7 @@ h1 {
 @media only screen and (max-width: 550px) {
     h1 {
         color: #FFD705;
-        font-size: 3.5em;
+        font-size: 4em;
         text-shadow: 0px 0px 0.7rem black;
     }
 }
