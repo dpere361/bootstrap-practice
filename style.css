@@ -1,7 +1,7 @@
 
 body, html {
+    margin: auto 0;
     height: 100%;
-    width: 100%;
     font-family: "Titillium Web", sans-serif;
     background: url("whale.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -10,12 +10,22 @@ body, html {
   background-size: cover;
 }
 
+.buffer-top {
+    height: 25%;
+    width:100%;
+}
+
 .buffer {
     height: 30px;
+    width:100%;
 }
+
+
 
 heading {
     animation-delay: 1.7s;
+    
+    justify-content: center; 
 }
 
 
@@ -26,12 +36,23 @@ h1 {
     text-shadow: 0px 0px 1rem black;
 }
 
+/* Responsive sizing for the heading */
+@media only screen and (max-width: 550px) {
+    h1 {
+        color: #FFD705;
+        font-size: 3em;
+        text-shadow: 0px 0px 0.7rem black;
+    }
+}
+
 hr {
     width: 150px;
     border-color: #FFD705;
     border-width: 4px;
     border-radius: 100px;
 }
+
+
 
 .smallBar {
     animation-delay: 0.4s;
