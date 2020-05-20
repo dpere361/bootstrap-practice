@@ -1,0 +1,19 @@
+{
+  "name": "web-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpere361/web-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpere361/web-practice/issues"
+  },
+  "homepage": "https://github.com/dpere361/web-practice#readme"
+}
